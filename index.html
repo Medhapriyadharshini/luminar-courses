@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=Barlow:wght@500&family=Caveat:wght@700&family=Chakra+Petch:wght@600&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Kalam:wght@400;700&family=Libre+Baskerville&family=Mooli&family=Mulish&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=Barlow:wght@500&family=Caveat:wght@700&family=Chakra+Petch:wght@600&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Kalam:wght@400;700&family=Libre+Baskerville&family=Mooli&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+<style>
+    .navbar-nav{
+        display: flex;
+        justify-content: end;
+    }
+    .nav-item{
+        list-style: none;
+        margin-left: 20px;
+    }
+    .nav-item a{
+        text-decoration: none;
+        color: #212529;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .nav-item a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: #6D1D8E;
+        margin: auto;
+        display: block;
+    }
+    .nav-item a:hover::after{
+        width: 100%;
+        transition: width 0.3s linear;
+    }
+    .nav-item a:hover{
+        color:#6D1D8E;
+    }
+</style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img style="width:269px ; height:66px; margin-left: 170px;" src="./images/10009.png" height="15"
+                            alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Right links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="margin-right: 300px;" >
+                        <li class="nav-item">
+                            <a  
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  
+                                href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  
+                                href="#">Placements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a 
+                                href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">About
+                                us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a 
+                                href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Right links -->
+
+        </nav>
+        <!-- Navbar -->
+    </section>
+
+
+    <!-- first -->
+    <section style="background-color: #DECCFF; margin-right:0px; height: 485px; width: 1512px;">
+        <div class="row">
+            <div class="col-4" style="margin-left: 200px;">
+                <h1 style="margin: 27px 0 27px 0; font-size: 40px; font-weight: 700; color: #6D1D8E; margin-top: 70px;">Best Data
+                    Science,Big<br> Data Courses</h1>
+                <h4 style=" font-size: 25px; font-weight: 700; color: #6D1D8E;">Luminar Technolab | Kochi,Kerala</h4>
+                <br>
+                <p style=" font-size: 15px; font-weight: 600; color:#000">Luminar Technolab, No.1 Software Training
+                    Institute offers<br> various Software Courses along with
+                    100% Guaranteed <br>Placement assistance. We provide Big Data Training, Data <br>Science,
+                    Python,Mean Stack,Software Testing & many more</p>
+                <br>
+                <button type="button" class="btn "
+                    style="background-color: #6D1D8E; color: white; border-radius: 30px; padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;">ENQUIRE NOW</button>
+            </div>
+            <div class="col-4">
+                <img style="width:635px ; height:423px ; margin-left:-50px;" src="./images/10001.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- cards -->
+    <section>
+        <div style="margin-top: 100px; text-align: center;">
+            <h1 style="font-size: 45px; font-weight: 700; color: #6D1D8E;">Our 100% Job Oriented<br> Training Programs
+            </h1>
+            <p style="color: #515151; font-size: 15px; font-family: 'Mulish', sans-serif; ">We are focused on providing
+                advanced level software training like Big Data Training,<br> Hadoop Training, Data Science Training,
+                Python Training, Machine Learning Training,<br> Selenium Training in Cochin Kerala.
+
+            </p>
+            <input type="search"
+                style=" border: none; font-size: 20px; line-height: 63px; color: #c6c6c6; height: 76px; width: 1060px; border-bottom: 2px solid #bebebe; margin: 50px 0 20px 0; padding: 6px 12px 6px 12px;"
+                placeholder="Search Your Courses"><img src="./images/10002.png" alt="">
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col" style="margin-left: 170px; height: 700px; width: 340px; margin-top: 100px;">
+                <div class="card h-100">
+                    <div class="card2 "
+                        style=" display: flex; border-radius: 50%; height: 150px; width: 180px; margin-left: 60px; margin-top: 26px; background-color:#e7e7e7; border-color: #e7e7e7; ">
+                        <img style="height: 75px; width: 90px; margin: 42px;" src="./images/10003.svg"
+                            class="card-img-top" alt="" /></div>
+                    <div class="card-body">
+                        <h5 style="font-size: 20px; font-weight: 700; color: #6D1D8E; font-family: 'Barlow', sans-serif; margin-top: 20px;"
+                            class="card-title">Software Testing Specialist</h5>
+                        <p class="card-text"
+                            style="margin-top: 55px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            Manual Testing , Java foundations, Mobile<br> Testing, Automation Testing, Selenium IDE,<br>
+                            Selenium Web driver, Selenium Advanced
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">November 8th 2023 (Offline &
+                                Online)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">October 18th 2023
+                                (Offline)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">4 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">31500</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">29500</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style=" background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="margin-left: 50px; height: 700px; width: 340px;margin-top: 100px;">
+                <div class="card h-100">
+                    <div class="card2 "
+                        style="display: flex; border-radius: 50%; height: 150px; width: 180px; margin-left: 60px; margin-top: 26px; background-color:#e7e7e7; border-color: #e7e7e7; ">
+                        <img style="height: 75px; width: 90px; margin: 42px;" src="./images//10004.svg"
+                            class="card-img-top" alt="Palm Springs Road" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 19px; font-weight: 700; color: #6D1D8E; font-family: 'Barlow', sans-serif;  margin-top: 20px;"
+                            class="card-title">PYTHON DATA SCIENCE - ML - AI - & Power BI</h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 13.5px; line-height: 19px; color: #515151;">
+                            Python, SQL, Exploratory Data Analytics,<br> Linear Algebra, Statistics, Probability<br>
+                            Concepts, Machine Learning, Deep Learning,
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Nov 8th 2023 (Offline & Online)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Not Available</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">6 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">61000</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">56000</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col "
+                style="margin-left: 50px; height: 700px; width: 340px; margin-top: 100px;">
+                <div class="card h-100">
+                    <div class="card2 "
+                        style="border-radius: 50%; height: 150px; width: 180px; margin-left: 60px; margin-top: 26px; background-color:#e7e7e7; border-color: #e7e7e7; ">
+                        <img style="height: 75px; width: 90px; margin: 42px;" src="./images/10005.svg"
+                            class="card-img-top" alt="Los Angeles Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 19px; font-weight: 700; color: #6D1D8E; font-family: 'Barlow', sans-serif;  margin-top: 20px;"
+                            class="card-title">MEA(R)N Stack Web Development Expert - Angular & React</h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            HTML, CSS, Bootstrap, Javascript, Typescript, Git, Angular, React.js, Node.js, Express.js &
+                            MongoDB
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Nov 8th 2023 (Offline & Online)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Oct 18th 2023
+                                (Offline)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">4 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">45000</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">41500</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="margin-left: 170px; height: 700px; width: 333px; margin-top: 30px;">
+                <div class="card h-100">
+                    <div class="card2 "
+                        style="border-radius: 50%; height: 150px; width: 180px; margin-left: 60px; margin-top: 26px; background-color:#e7e7e7; border-color: #e7e7e7; ">
+                        <img style="height: 75px; width: 90px; margin: 42px;" src="./images/10006.svg"
+                            class="card-img-top" alt="Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 20px; font-weight: 700; color: #6D1D8E; font-family: 'Barlow', sans-serif;"
+                            class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST
+                            API, Git, Angular, Web
+                        </p>
+                        <p style="margin-top: 30px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Nov 8th 2023 (Offline & Online)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Oct 11th 2023
+                                (Offline)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">6 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">35000</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">31500</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="margin-left: 50px; height: 700px; width: 333px; margin-top: 30px;">
+                <div class="card h-100">
+                    <div class="card2 "
+                        style="border-radius: 50%; height: 150px; width: 180px; margin-left: 60px; margin-top: 26px; background-color:#e7e7e7; border-color: #e7e7e7; ">
+                        <img style="height: 75px; width: 90px; margin: 42px;" src="./images/10008.png"
+                            class="card-img-top" alt="Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 20px; font-weight: 700; color: #6D1D8E; font-family: 'Barlow', sans-serif;"
+                            class="card-title">Asp.net MVC with Angular - Full Stack</h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            C# Programming, Object Oriented Development, ASP .Net Web and Windows Application
+                            Development, MS SQL, MVC
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Oct 11th 2023</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Not Available</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">5 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">31500</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">29000</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="margin-left: 50px; height: 700px; width: 333px; margin-top: 30px;">
+                <div class="card h-100">
+                    <div class="card2 ">
+                        <img class="imgicon" src="./images/10007.svg" class="card-img-top" alt="Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 20px; font-weight: 700; color: #6D1D8E;font-family: 'Barlow', sans-serif;"
+                            class="card-title">Android Developer Expert Training In Kochi- Flutter</h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            Dart, Flutter Introduction to Android, Android Studio, AndroidManifest.xml, Directories,
+                            Layout Designing, Basics & Intents, UI
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Nov 8th 2023 (Offline & Online)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Oct 11th 2023
+                                (Offline)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">6 Months.(1.5 - 2 Hours/day)</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">31500</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">29000</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"
+                style="margin-left: 170px; height: 700px; width: 333px; margin-top: 30px; margin-bottom: 70px;">
+                <div class="card h-100">
+                    <div class="card2 ">
+                        <img class="imgicon" src="./images/10019.png" class="card-img-top" alt="Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 style="font-size: 20px; font-weight: 700; color: #6D1D8E;font-family: 'Barlow', sans-serif;"
+                            class="card-title">Java Spring Full Stack Development
+                        </h5>
+                        <p class="card-text"
+                            style="margin-top: 38px; font-family: 'Mulish', sans-serif; font-size: 14px; line-height: 19px; color: #515151;">
+                            Important Spring Annotations, IOC Containers,Dependency injection,Auto Wiring, Spring Data
+                            JPA, Intrduction to Spring
+                        </p>
+                        <p style="margin-top: 20px;">
+                            <span style="font-size: 15px; font-weight: 700; color: #6D1D8E;">Next Batch:</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Cochin :</span><span
+                                style="color: #515151; font-size: 14px;">Dec 6th 2023</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Calicut :
+                            </span><span style="color: #515151; font-size: 14px;">Not Available</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Duration:</span><br><span
+                                style="color: #515151; font-size: 14px;">4 Months, 5 Days a Week, 1.5 - 2
+                                Hours/day</span><br><span
+                                style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Course Fee:</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (EMI Mode) :
+                            </span><span style="color: #515151; font-size: 14px;">31500</span><br>
+                            <span style="font-size: 14px; font-weight: 700; color: #6D1D8E;">Fees (One time Payment
+                                mode) :</span><span style="color: #515151; font-size: 14px;">29000</span>
+                        </p>
+                        <button type="button" class="btn"
+                            style="background-color: #6D1D8E; color: white; border-radius: 30px; margin-left: 85px; margin-top: 18px;">View
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- bullets -->
+    <section>
+        <div class="row">
+            <div class="col-5">
+                <img style="height: 760px; width: 675px;" src="./images/10010.png" alt="">
+            </div>
+            <div class="col-7">
+                <h1 style="margin-left: 180px; font-size: 55px; font-weight: 700; color: #6D1D8E; margin-top: 90px;">
+                    Why Luminar Technolab
+                </h1>
+                <p style="text-align: center;font-size: 15px; color: #515151; margin-top: 70px; ">At Luminar Technolab
+                    we offer a comprehensive course
+                    that covers the whole<br> aspects of the Data Science Ecosystem including Big Data Engineering,
+                    Data<br> Science, Data Analytics, Data Visualization - Tableau, data processing, Data<br> Munging,
+                    Machine Learning, Deep Learning & Artificial Intelligence.</p>
+                <ul type="none" style="align-items: center; margin-left: 140px; margin-top: 40px;">
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">ISO 9001:2015
+                        Certified Institution</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Affiliated to
+                        NACTET (http://www.nactetindia.org/affiliation.php)</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Training by
+                        highly experienced and certified professionals</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">No slideshow
+                        (PPT) training, fully Hands-on training</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Interactive
+                        session with interview QA’s</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Real-time
+                        projects scenarios & Certification Help</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Most competitive
+                        & affordable course fees</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Placement
+                        support for all courses</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">List of
+                        established & satisfied clients & students</li>
+                    <li style="font-size: 16px; font-weight: 700; color: #515151;"><img src="./images/10017.png"
+                            alt="">Located Near
+                        Infopark Cochin.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pen -->
+    <section>
+        <div>
+            <img style="height: 572px; width: 1512px; background-position: 50% 100%; background-repeat: no-repeat;"
+                src="./images/10018.png" alt="">
+        </div>
+        <div class="overlay">
+            <div class="inner" style="margin-top: 10px;">
+                <h1 style="text-align: center;">So why wait? Start one of our high quality courses</h1>
+                <h1 style="text-align: center;"> from the world's leading experts today!</h1>
+                <h6 style="padding-top: 20px; color: #BB9867; text-align: center;">If You Have Any Questions Call Us / Whatsapp On +91 80862 66660</h6>
+                <button type="button" class="btn "
+                    style="margin-top: 70px; margin-left: 370px; background-color:white; color:#6D1D8E; border-radius: 30px; padding-left: 35px; padding-right: 35px; padding-top: 10px; padding-bottom: 10px; font-weight: 700; font-size: 16px;">JOIN NOW</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> -->
+            <!-- Left -->
+            <!-- <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div> -->
+            <!-- Left -->
+
+            <!-- Right -->
+            <!-- <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f">gfdhfj</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a> -->
+            <!-- </div> -->
+            <!-- Right -->
+            <!-- </section> -->
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section>
+                <div class="container text-center text-md-start" style="margin-top: 100px;">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-2" style="margin-left: 100px;">
+                            <!-- Content -->
+                            <!-- <h6 class="text-uppercase fw-bold mb-4">
+                             <i class="fas fa-gem me-3"></i>Company name
+                               </h6> -->
+                            <img style="height: 54px; width: 215px;" src="./images/10009.png" alt="">
+                            <p>
+                            <div>
+                                <a href=""><img style="width: 41px;" src="./images/10011.svg" alt=""></a>
+                                <a href=""><img style="width: 41px;" src="./images/10012.svg" alt=""></a>
+                                <a href=""><img style="width: 41px;" src="./images/10013.svg" alt=""></a>
+                                <a href=""><img style="width: 41px;" src="./images/10001.svg" alt=""></a>
+                                <a href=""><img style="width: 41px;" src="./images/10014.svg" alt=""></a>
+
+                            </div>
+                            </p>
+                            <div>
+                                <a href=""><img style="height: 71px; width: 137px;" src="./images/10015.png" alt=""></a>
+                                <a href=""><img style="height:65px ; width: 78px;" src="./images/10016.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4"
+                                style=" color: #6D1D8E; font-weight: 700; font-size: 16px;">
+                                COURSES
+                            </h6>
+                            <hr>
+                            <p>
+                                <a href="#!" style="text-decoration: none; color: #7E7E7E; font-size: 16px;"
+                                    class="text-reset">Software
+                                    Testing Specialist</a>
+                                    
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">MEA(R)N
+                                    Stack Web Development<br> Expert-Angular&React</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Android
+                                    Developer Expert Training In Kochi-Flutter</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">PythonDjango-Angular-Full Stack Web<br> Development Expert</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">PYTHON
+                                    DATA SCIENCE-ML-AL-<br>&POWER BI</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Asp,net
+                                    MVC with Angular- Full Stack</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Java
+                                    Spring Full Stack Development</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4"
+                                style=" color: #6D1D8E; font-weight: 700; font-size: 16px;">
+                                USEFUL LINKS
+                            </h6>
+                            <hr>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Teachers&Staff</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Gallery</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Our
+                                    Courses</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Refund &
+                                    Cancellation Policy</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;  color: #7E7E7E; font-size: 14px;"
+                                    class="text-reset">Certification & Affiliation</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4"
+                                style="font-weight: 700; font-size: 16px; color: #6D1D8E; ">CONTACT US</h6>
+                            <hr>
+                            <p style="color: #6D1D8E; font-size: 16px; font-weight: 700;"><i
+                                    class="fas fa-home me-3"></i>Cochin</p>
+                            <p>
+                                <i class="fas fa-envelope me-3" style="font-size: 14px;"></i>
+                                Luminar Technolab Pvt Ltd
+                                3rd Floor, Vallamattam Estate,
+                                Seaport - Airport Rd, CSEZ,
+                                Kakkanad, Cochin, Kerala - 682037<br>
+                                <span style="color: #6D1D8E;font-size:14px ; font-weight:700 ;">Call: +91 8086 651
+                                    651<br>
+                                    Email: contact@luminartechnolab.com</span>
+
+
+                            </p>
+
+                            <p style="color: #6D1D8E; font-size: 16px; font-weight: 700;"><i
+                                    class="fas fa-home me-3"></i>Calicut</p>
+                            <p> <i class="fas fa-envelope me-3" style="font-size: 14px;"></i>
+                                Luminar Technolab Pvt Ltd
+                                2nd Floor, 61/10222 ,
+                                Mullath Building,
+                                Opp. KSRTC Bus Stand,
+                                Mavoor Road, Calicut, Kerala-673001<br>
+                                <span style="color: #6D1D8E;font-size:14px ; font-weight:700 ;"> Call: +91 8086 531 531,
+                                    0495 - 3573001<br>
+                                    Email: contact@luminartechnolab.com</span>
+
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © Luminar Technolab 2023|Developed by Deepnetsoft
+                <a class="text-reset fw-bold" href="" type="none"
+                    style="color: #6D1D8E; text-decoration: none; ">Privacy & Terms of Use</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </section>
+</body>
+
+</html>
